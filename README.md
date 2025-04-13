@@ -99,5 +99,10 @@ Test on real-time signal data streams
 
 *CODE*:
 
+![Image](https://github.com/user-attachments/assets/901e5a10-14c5-47c0-8c39-6b519a3323e7)
+
+![Image](https://github.com/user-attachments/assets/fba149dc-fad6-4b10-9750-bf81e8f86122)
 
 *OUTPUT*: 
+
+
