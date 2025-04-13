@@ -105,4 +105,8 @@ Test on real-time signal data streams
 
 *OUTPUT*: 
 
+![Image](https://github.com/user-attachments/assets/b62c30e6-48a2-4f90-9142-bcacca36179b)
+
+![Image](https://github.com/user-attachments/assets/a839224d-16c6-4f19-a104-d5b913b91f08)
+
 
