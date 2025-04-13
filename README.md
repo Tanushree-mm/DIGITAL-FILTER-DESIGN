@@ -86,6 +86,10 @@ Simulate using ADE and observe the output waveform
 
 (Optional) Modify coefficients or number of taps for custom filtering behavior
 
+MATLAB: 
+
+Run the code given in FIR_MATLAB, the output will display as given below.
+
 Future Enhancements
 Load coefficients dynamically via memory file
 
@@ -108,5 +112,11 @@ Test on real-time signal data streams
 ![Image](https://github.com/user-attachments/assets/b62c30e6-48a2-4f90-9142-bcacca36179b)
 
 ![Image](https://github.com/user-attachments/assets/a839224d-16c6-4f19-a104-d5b913b91f08)
+
+*MATLAB OUTPUTS*:
+
+![Image](https://github.com/user-attachments/assets/8844f9e4-7f88-42bb-b81c-86541706277b)
+
+![Image](https://github.com/user-attachments/assets/6cc5912e-3243-46c1-ad81-109ea715abd8)
 
 
