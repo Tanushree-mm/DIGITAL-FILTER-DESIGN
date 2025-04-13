@@ -1,0 +1,35 @@
+clc;
+clear;
+close all;
+
+fs = 1000;
+fc = 100;
+n_taps = 21;
+
+Wn = fc / (fs/2);
+h = fir1(n_taps - 1, Wn, 'low', hamming(n_taps));
+
+disp('FIR Filter Coefficients:');
+disp(h);
+
+fvtool(h, 1);
+
+t = 0:1/fs:1-1/fs;
+x = sin(2*pi*50*t) + 0.5*sin(2*pi*200*t);
+
+y = filter(h, 1, x);
+
+figure;
+subplot(2,1,1);
+plot(t, x);
+title('Original Signal (50 Hz + 200 Hz)');
+xlabel('Time (s)');
+ylabel('Amplitude');
+grid on;
+
+subplot(2,1,2);
+plot(t, y, 'r');
+title('Filtered Signal (Low-Pass FIR Output)');
+xlabel('Time (s)');
+ylabel('Amplitude');
+grid on;
